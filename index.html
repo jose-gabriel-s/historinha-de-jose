@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Rumo à NBA</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="Imagem de um jovem jogador de basquete sonhando com a NBA">
+            <p>Você sempre sonhou em jogar na NBA. Depois de muito treino e dedicação, chegou a hora de tomar decisões importantes para seguir sua jornada. Para começar, você precisa escolher entre dois caminhos que podem definir seu futuro.</p>
+            <button class="btn-proximo" data-proximo="1">Participar de um campeonato local</button>
+            <button class="btn-proximo" data-proximo="2">Treinar em uma academia renomada</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide participar de um campeonato local. É uma grande oportunidade para mostrar suas habilidades e ser notado por olheiros.</p>
+            <button class="btn-proximo" data-proximo="3">Jogar o campeonato</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e treinar mais</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você escolhe treinar em uma academia renomada. Este é um ótimo lugar para aprimorar suas habilidades com os melhores treinadores e equipamentos.</p>
+            <button class="btn-proximo" data-proximo="5">Participar de um treinamento intensivo</button>
+            <button class="btn-proximo" data-proximo="6">Voltar para o campeonato local</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No campeonato local, suas habilidades chamam a atenção de olheiros da NBA. Eles te convidam para uma avaliação.</p>
+            <button class="btn-proximo" data-proximo="7">Participar da avaliação da NBA</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-desistir.png" alt="Imagem de um jogador desistindo e voltando para casa">
+            <p>Você decide que precisa de mais treino e volta para casa. Apesar de não ter participado do campeonato, você continua determinado a alcançar seu sonho.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Na academia renomada, você melhora significativamente suas habilidades e é notado por um agente que te oferece uma chance de se apresentar em um campeonato profissional.</p>
+            <button class="btn-proximo" data-proximo="8">Participar do campeonato profissional</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Você decide voltar para o campeonato local, mas é tarde demais. A oportunidade de treinar na academia renomada passou, e você precisa esperar uma nova chance.</p>
+            <button class="btn-proximo" data-proximo="4">Desistir e treinar mais</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Na avaliação da NBA, você impressiona os olheiros e é convidado para um teste com um time da liga.</p>
+            <button class="btn-proximo" data-proximo="9">Participar do teste da NBA</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>No campeonato profissional, você se destaca e recebe ofertas para se unir a times da NBA para testes.</p>
+            <button class="btn-proximo" data-proximo="9">Participar do teste da NBA</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>O teste da NBA é um grande desafio, mas você consegue mostrar seu talento e recebe uma oferta para se juntar a um time da NBA!</p>
+            <button class="btn-proximo" data-proximo="10">Assinar contrato com o time da NBA</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-passo10-nba.png" alt="Imagem de um jogador assinando contrato com a NBA">
+            <p>Você assinou contrato com um time da NBA e realiza seu sonho de jogar na liga profissional. Parabéns!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
